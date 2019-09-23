@@ -28,7 +28,6 @@ urlpatterns = [
     path('shops/<pk>/', ShopView.as_view()),
     path('auth/', LoginView.as_view()),
     path('account/', AccountView.as_view()),
-    path('products/', ProductList.as_view()),
     path('order/', OrderView.as_view()),
 
 ]
